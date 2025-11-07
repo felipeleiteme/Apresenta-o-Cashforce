@@ -1,0 +1,30 @@
+# Unity-generated artefacts (keep repository lean)
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# Local caches and IDE config
+.vs/
+.vscode/
+
+# Platform-specific cruft
+*.psd
+*.suo
+*.user
+*.userprefs
+*.unitypackage
+*.DS_Store
+
+# Ignore everything except verdades-ocultas project
+/*
+!/.gitignore
+!/Documents/
+/Documents/*
+!/Documents/Projetos/
+/Documents/Projetos/*
+!/Documents/Projetos/verdades-ocultas/
+
