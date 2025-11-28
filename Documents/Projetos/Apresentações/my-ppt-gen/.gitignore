@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Generated files
+output/*.pptx
+temp/*
+!temp/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+.env
+*.log
+
+# Keep folder structure
+!input/branding/fonts/.gitkeep
+!input/content/.gitkeep
+!input/references/.gitkeep
+!output/.gitkeep

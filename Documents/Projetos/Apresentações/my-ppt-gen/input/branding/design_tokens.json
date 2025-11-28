@@ -1,0 +1,113 @@
+{
+  "cashforce_theme": {
+    "colors": {
+      "brand": {
+        "primary": "#00CF80",
+        "primary_hover": "#00B06D",
+        "secondary": "#727D94",
+        "accent_blue": "#1A2D45",
+        "accent_purple": "#A679F0",
+        "accent_orange": "#F79552"
+      },
+      "background": {
+        "default": "#FBFDFE",
+        "paper": "#FFFFFF",
+        "dark": "#132E4F",
+        "sidebar": "#FFFFFF"
+      },
+      "text": {
+        "primary": "#1A2D45",
+        "secondary": "#727D94",
+        "light": "#FFFFFF",
+        "success": "#00CF80"
+      },
+      "border": {
+        "light": "#DFE2E6",
+        "focused": "#00CF80"
+      },
+      "status": {
+        "success": "#E6FDF4",
+        "success_text": "#00CF80",
+        "info": "#EBF2F9",
+        "info_text": "#3B82F6"
+      }
+    },
+    "typography": {
+      "font_family": "'DM Sans', sans-serif",
+      "weights": {
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+      },
+      "sizes": {
+        "h1": "48px",
+        "h2": "32px",
+        "h3": "24px",
+        "body_large": "18px",
+        "body": "14px",
+        "caption": "12px"
+      },
+      "line_height": {
+        "heading": "1.2",
+        "body": "1.5"
+      }
+    },
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "xxl": "64px"
+    },
+    "borderRadius": {
+      "button": "24px",
+      "input": "4px",
+      "card": "8px",
+      "large_card": "16px",
+      "circle": "50%"
+    },
+    "shadows": {
+      "card": "0px 4px 14px rgba(0, 0, 0, 0.05)",
+      "hover": "0px 6px 20px rgba(0, 0, 0, 0.08)",
+      "sidebar": "2px 0px 10px rgba(0, 0, 0, 0.03)"
+    },
+    "components": {
+      "button": {
+        "primary": {
+          "bg": "#1A2D45",
+          "text": "#FFFFFF",
+          "radius": "24px",
+          "padding": "10px 24px"
+        },
+        "secondary": {
+          "bg": "transparent",
+          "border": "1px solid #00CF80",
+          "text": "#1A2D45",
+          "radius": "24px"
+        }
+      },
+      "card": {
+        "bg": "#FFFFFF",
+        "border": "1px solid #DFE2E6",
+        "radius": "8px"
+      }
+    }
+  },
+  "pptx_mappings": {
+    "slide_dimensions": {
+      "width": 10,
+      "height": 7.5,
+      "units": "inches"
+    },
+    "fonts": {
+      "heading": "DM Sans Bold",
+      "body": "DM Sans",
+      "fallback": "Arial"
+    },
+    "assets": {
+      "logo_path": "input/branding/logo.png",
+      "background_image": null
+    }
+  }
+}
